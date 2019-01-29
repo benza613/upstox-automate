@@ -1,0 +1,16 @@
+{
+  "name": "upstox-automate",
+  "version": "1.0.0",
+  "description": "auto upstox token out",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "puppeteer": "^1.10.0",
+    "request": "^2.88.0"
+  },
+  "author": "Benito Alvares",
+  "license": "ISC"
+}
