@@ -4,8 +4,8 @@ Project uses puppeteer to run a headless chromium browser & express to serve end
 Recommended: Add your own more secure request auth mechanism.  
 
 ### Endpoints 
-GET http://deployed.site/ -- to check if app is alive 
-POST http://deployed.site/getToken -- pass adminPass in body to retrieve back validated upstox token
+GET http://deployed.site/ -- to check if app is alive <br/>
+POST http://deployed.site/getToken -- pass adminPass in body to retrieve back validated upstox token <br/>
      adminPass=PUT_RANDOMADMINPASS_HERE 
 
 ## AMAZON APP SERVICE READY 
