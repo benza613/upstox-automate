@@ -3,6 +3,10 @@ Automate your Upstox auth lifecycle using a headless browser &amp; basic auth me
 Project uses puppeteer to run a headless chromium browser & express to serve endpoints. 
 Recommended: Add your own more secure request auth mechanism.  
 
+### Endpoints 
+GET http://deployed.site/ -- to check if app is alive 
+POST http://deployed.site/getToken -- pass adminPass in body to retrieve back validated upstox token
+     adminPass=PUT_RANDOMADMINPASS_HERE 
 
 ## AMAZON APP SERVICE READY 
 Project is configured to run flawlessly with any amazon app service plan. 
